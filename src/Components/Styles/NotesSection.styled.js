@@ -35,6 +35,7 @@ export const StyledNotesSection = styled.section`
 
     @media screen and (max-width: 400px) {
       grid-auto-rows: 30.4rem;
+      padding-bottom: 20rem;
     }
   }
 
