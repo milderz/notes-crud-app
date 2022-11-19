@@ -21,7 +21,7 @@ function UserLogin() {
   useEffect(() => {
     if (!user) {
       navigate("/login");
-    } else [navigate("/")];
+    }
   }, [user, navigate]);
   return (
     <StyledUserLogin>
