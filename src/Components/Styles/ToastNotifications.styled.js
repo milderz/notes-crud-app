@@ -15,6 +15,14 @@ export const StyledToastNotifications = styled.div`
   /* max-width: max-content; */
   width: 28.3rem;
 
+  p {
+    font-size: 1.6rem;
+
+    @media screen and (max-width: 400px) {
+      font-size: 1.2rem;
+    }
+  }
+
   @media screen and (max-width: 500px) {
     margin: 1.2rem auto 0 auto;
   }
