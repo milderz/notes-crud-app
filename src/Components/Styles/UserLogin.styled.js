@@ -14,6 +14,10 @@ export const StyledUserLogin = styled.div`
     font-size: 1.6rem;
     color: var(--main-white);
     padding-left: 1.6rem;
+
+    @media screen and (max-width: 500px) {
+      display: none;
+    }
   }
 
   .log-out-btn {
