@@ -20,7 +20,7 @@ function UserLogin() {
 
   useEffect(() => {
     if (!user) {
-      navigate("/");
+      navigate("/login");
     }
   }, [user, navigate]);
   return (
