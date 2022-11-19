@@ -15,6 +15,10 @@ export const StyledToastNotifications = styled.div`
   /* max-width: max-content; */
   width: 28.3rem;
 
+  @media screen and (max-width: 500px) {
+    margin: 1.2rem auto 0 auto;
+  }
+
   svg {
     margin-right: 1.2rem;
   }
@@ -45,4 +49,12 @@ export const ToastContainer = styled.div`
   position: absolute;
   bottom: 2.2rem;
   right: 3.2rem;
+
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    bottom: 10.2rem;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+  }
 `;

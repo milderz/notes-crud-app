@@ -22,6 +22,10 @@ export const StyledNote = styled.div`
     font-weight: 700;
     outline: none;
     transition: background-color 0.4s ease;
+
+    ::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+    }
   }
   .note-textarea-body {
     width: 100%;
